@@ -1,0 +1,26 @@
+{
+  "skill_name": "spartan-ui",
+  "evals": [
+    {
+      "id": 0,
+      "eval_name": "install-and-init",
+      "prompt": "¿Cómo instalaría e inicializaría Spartan UI en un nuevo proyecto Angular usando pnpm?",
+      "expected_output": "Debes mencionar la instalación de @spartan-ng/cli, el comando 'init' y 'ui-theme'.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "eval_name": "add-component",
+      "prompt": "Necesito añadir un componente de botón de Spartan UI a mi proyecto. ¿Cuál es el comando?",
+      "expected_output": "El comando debe ser 'ng g @spartan-ng/cli:ui button'.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "eval_name": "typography-usage",
+      "prompt": "Muéstrame cómo usar los estilos de tipografía de Spartan para un encabezado h1 y un párrafo en un componente Angular.",
+      "expected_output": "Debe importar hlmH1 y hlmP de @spartan-ng/helm/typography y aplicarlos como clases en el template.",
+      "files": []
+    }
+  ]
+}
